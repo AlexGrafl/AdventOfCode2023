@@ -2,6 +2,7 @@ package dev.alexgrafl
 
 import dev.alexgrafl.puzzles.Day_1_1
 import dev.alexgrafl.puzzles.Day_1_2
+import dev.alexgrafl.puzzles.Day_2_1
 
 fun main() {
     puzzles.forEach(StarPuzzle::loadInputAndSolve)
@@ -9,5 +10,6 @@ fun main() {
 
 val puzzles = listOf(
     Day_1_1(),
-    Day_1_2()
+    Day_1_2(),
+    Day_2_1(),
 )

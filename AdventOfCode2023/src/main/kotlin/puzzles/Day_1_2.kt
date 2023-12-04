@@ -50,7 +50,6 @@ class Day_1_2 : StarPuzzle() {
             if(lastDigit != null)
                 joinedNumber += lastDigit.second
             val number = if(joinedNumber.isNotEmpty()) joinedNumber.toInt() else 0
-            println("$index: $line -> $number")
             acc + number
         }.toString()
     }
